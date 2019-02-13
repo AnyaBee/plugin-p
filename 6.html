@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Incobonus AliExpress</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <a class="header__logo" href="#">
+            <img src="img/logo-ali.png" width="124" height="33" alt="AliExpress logo">
+        </a>
+        <a class="header__cashback-active" href="#"><span class="header__shop-activated">Магазин активирован
+            <span class="header__chasback-max">кэшбэк до 26%</span></span></a>
+    </header>
+    <main>
+        <section class="account">
+            <div class="account__icon">
+                <img src="img/account-icon.jpg" width="43" height="43" alt="account icon">
+                <img class="account__tag" src="img/account-tag.png" width="14" height="26" alt="incobonus icon">
+            </div>
+            <div class="account__accessible">
+                <span class="account__allowed">Доступно к выводу</span>
+                <span class="account__allowed-amount">504 руб.</span>
+            </div>
+            <div class="account__border"></div>
+            <div class="account__generated">
+                <span class="account__allowed">Всего заработано</span>
+                <span class="account__total">50444 руб.</span>
+            </div>
+        </section>
+        <section class="tabs">
+            <ul class="tabs__tabset">
+                <li class="tabs__item tabs__item1">
+                    <a class="tabs__item-link" href="#tab1">Найти магазин</a>
+                </li>
+                <li class="tabs__item tabs__item2">
+                    <a class="tabs__item-link tabs__item-link--active" href="#tab2">Мои заказы</a>
+                </li>
+                <li class="tabs__item tabs__item3">
+                    <a class="tabs__item-link" href="#tab3">Заработать $</a>
+                </li>
+            </ul>
+            <div class="tabs__tab-content">
+                <div id="tab1">
+                    <section class="shop">
+                        <div class="shop__find-shop">Найти другой магазин</div>
+                        <div class="shop__info">
+                            <div class="shop__wrapper">
+                                <img src="img/icon-shop.png" class="shop__logo" width="156" height="52" alt="shop logo">
+                            </div>
+                            <h2 class="shop__cashback-nonactive">Кэшбэк <br>не активирован</h2>
+                        </div>
+                        <button class="button shop__button">Активировать кэшбэк</button>
+                    </section>
+                </div>
+                <div id="tab2">
+                    <section class="no-order">
+                        <div class="no-order__wrapper">
+                            <h1 class="no-order__title">Вы еще не совершали покупки с кэшбеком</h1>
+                            <a class="no-order__link button" href="#">Найти магазин</a>
+                        </div>
+                    </section>
+                </div>
+                <div id="tab3">
+                    <div class="tabs__wrapper">
+                        <div class="tabs__adjust jcf-scrollable">
+                            <section class="cashback-info ">
+                                <div class="cashback-info__wrapper">
+                                    <img src="img/referral-scheme.jpg" width="262" height="88" alt="Referral scheme">
+                                    <ol class="cashback-info__list">
+                                        <li class="cashback-info__list-item">
+                                            <p class="cashback-info__option">Расскажите друзьям и поделитесь<br> партнерской ссылкой</p>
+                                        </li>
+                                        <li class="cashback-info__list-item">
+                                            <p class="cashback-info__option">Друзья делают покупки<br> и получают свой кэшбэк</p>
+                                        </li>
+                                        <li class="cashback-info__list-item">
+                                            <p class="cashback-info__option">Вы получаете 7%<br> от каждого их кэшбэка</p>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </section>
+                            <section class="referral">
+                                <h2 class="referral__title">Реферальная ссылка</h2>
+                                <form>
+                                    <label>
+                                        <input class="referral__input" type="url" placeholder="http://incobonus.ru/?r=4201408">
+                                    </label>
+                                    <button class="button referral__button">Копировать ссылку</button>
+                                </form>
+                                <h3 class="referral__invite">Или пригласите их через социальные сети:</h3>
+                                <div class="socials">
+                                    <ul class="socials__buttons">
+                                        <li>
+                                            <a href="#">
+                                                <img src="img/socials-vk.png" width="38" height="38" alt="Вконтакте">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="img/socials-facebook.png" width="38" height="38" alt="Facebook">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="img/socials-google.png" width="38" height="38" alt="GooglePlus">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="img/socials-ok.png" width="38" height="38" alt="Одноклассники">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="img/socials-twitter.png" width="38" height="38" alt="Twitter">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="help">
+            <a href="#">Помощь</a>
+        </section>
+    </main>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+</body>
+</html>

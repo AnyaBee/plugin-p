@@ -1,0 +1,25 @@
+.help {
+  margin: 0 auto 6px;
+  padding-top: 6px;
+  text-align: center;
+  border-top: 1px solid $beige;
+}
+
+.help a {
+  display: inline-block;
+  padding: 6px 5px 5px 5px;
+  border: 1px solid #179bd5;
+  width: 120px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  color: $blue;
+  text-align: center;
+  border-radius: 1px;
+}
+
+.help a:hover,
+.help a:active {
+  background-color: #e1eefa;
+}
+

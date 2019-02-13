@@ -1,0 +1,145 @@
+/* tabset required styles for hidden tabs */
+
+.js-tab-hidden {
+  display: block;
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+
+.tabs__tabset {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-bottom: 2px solid $blue;
+  margin-bottom: 7px;
+}
+
+.tabs__item {
+  text-align: center;
+  position: relative;
+}
+
+.tabs__item::after {
+  position: absolute;
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: $white;
+  top: 0;
+  right: 0;
+  transform: rotate(45deg) + translate(0, -9px);
+}
+
+.tabs__item1 {
+  width: 102px;
+  margin-right: 4px;
+}
+
+.tabs__item2 {
+  width: 80px;
+  margin-right: 4px;
+}
+
+.tabs__item3 {
+  width: 90px;
+}
+
+.tabs__item-link {
+  display: block;
+  color: $blue;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "GothaPro", "Verdana", sans-serif;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  background-color: #d2e8fe;
+}
+
+.tabs__item-link:hover,
+.tabs__item-link:active,
+.tabs__item-link--active {
+  background-color: $blue;
+  color: $white;
+}
+
+.tabs__search {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.tabs__search::after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url("../img/icon-search.png") no-repeat;
+  right: 9px;
+  top: 6px;
+}
+
+.tabs__search-input {
+  width: 205px;
+  padding: 13px 40px 12px 15px;
+  border: none;
+  font-size: 12px;
+  line-height: 14px;
+  background-color: #e1eefa;
+  border-radius: 3px;
+}
+
+.tabs__search-input::placeholder {
+  color: $blue;
+}
+
+.tabs__block {
+  margin-bottom: 10px;
+}
+
+.tabs__content {
+  width: 280px;
+  padding-right: 12px;
+  height: 438px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.tabs__wrapper {
+  width: 280px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.tabs__adjust {
+  height: 438px;
+}
+
+.tabs__back {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.tabs__back a {
+  color: $black;
+  font-family: $font-main;
+  font-size: 12px;
+  text-decoration: underline;
+  position: relative;
+}
+
+.tabs__back a:before {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-bottom: 1px solid $black;
+  border-left: 1px solid $black;
+  transform: rotate(45deg);
+  bottom: 2px;
+  left: -8px;
+}

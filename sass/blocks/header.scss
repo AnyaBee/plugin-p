@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px dotted $pink;
+  margin-bottom: 10px;
+}
+
+.header__logo {
+  width: 124px;
+}
+
+.header__activate-cashback {
+  width: 142px;
+  background-color: $pink;
+  font-family: $font-main;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: $white;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: #ed2d3f;
+  }
+}
+
+.header__shop-activated  {
+  padding: 0;
+  margin: 0;
+}
+
+.header__cashback-active {
+  background-color: #ccffeb;
+  width: 150px;
+  font-family: $font-main;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  text-decoration: none;
+  color: $black;
+  text-transform: uppercase;
+  border-radius: 3px;
+  text-align: left;
+  padding: 5px;
+  letter-spacing: -1px;
+}
+
+.header__chasback-max {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.header__logo--asos {
+  margin-bottom: -7px;
+}

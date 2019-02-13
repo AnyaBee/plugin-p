@@ -1,0 +1,103 @@
+.cashback-block {
+  border: 1px solid #26a1d8;
+  border-radius: 1px;
+  padding: 5px;
+  text-align: center;
+}
+
+.cashback-block__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.cashback-block__shop-logo {
+  width: 67px;
+  margin-right: 10px;
+}
+
+.cashback-block__amount {
+  width: 68px;
+  padding-right: 5px;
+  border-right: 1px solid #cfe3f5;
+  text-align: left;
+}
+
+.cashback-block__promocodes {
+  width: 60px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.cashback-block__cashback {
+  color: #7f7f7f;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: $font-main;
+  font-weight: 400;
+}
+
+.cashback-block__percentage {
+  color: $blue;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: $font-main;
+  font-weight: 700;
+}
+
+.cashback-block__promo {
+  color: #7f7f7f;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: $font-main;
+  font-weight: 400;
+}
+
+.cashback-block__count {
+  color: $blue;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: $font-main;
+  font-weight: 700;
+}
+
+.cashback-block__activate {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  width: 116px;
+  color: $white;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  font-family: $font-main;
+  background-color: $red;
+  border-radius: 1px;
+  margin-right: 5px;
+
+  &:hover,
+  &:active {
+    background-color: #ed2d3f;
+  }
+}
+
+.cashback-block__more {
+  display: block;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  width: 114px;
+  color: $red;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  font-family: $font-main;
+  background-color: $white;
+  border: 1px solid $red;
+  border-radius: 1px;
+
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+}

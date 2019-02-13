@@ -1,0 +1,29 @@
+.socials__buttons {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.socials h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.socials__buttons li {
+  width: 38px;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.socials__buttons a:hover img,
+.socials__buttons a:active img {
+  background-color: #e1eefa;
+}

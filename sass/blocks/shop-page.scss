@@ -1,0 +1,119 @@
+.shop-page {
+  text-align: left;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+.shop-page__title {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: $black;
+  margin-bottom: 10px;
+}
+
+.shop-page__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 19px;
+  margin-bottom: 10px;
+}
+
+.shop-page__option {
+  padding: 0;
+  margin: 0;
+  font-family: $font-main;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #7f7f7f;
+  padding-left: 65px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.shop-page__info {
+  font-size: 12px;
+  color: $black;
+}
+
+.shop-page__button {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.shop-page__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: newCounter;
+}
+
+.shop-page__list-item {
+  position: relative;
+  padding: 0 0 20px 0;
+}
+
+.shop-page__list-item::before {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  transform: translate(50%, 50%);
+  background-color: $blue;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  counter-increment: newCounter;
+  content: counters(newCounter, ".") " ";
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 100%;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px #1d8ef9, 0 0 0 8px #ffffff, 0 0 0 9px #d4e7f8;
+}
+
+.shop-page__holder {
+  text-align: center;
+}
+
+.shop-page__button {
+  display: block;
+}
+
+.shop-page__link {
+  display: inline-block;
+  text-align: center;
+  color: #ed3563;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #d6c3d4;
+}
+
+.shop-page__link:hover,
+.shop-page__link:active {
+  border-bottom: 1px solid $red;
+}
+
+.shop-page__list-item--last {
+  margin-top: -10px;
+}
+
+.shop-page__back {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.shop-page__back a{
+  color: $black;
+  font-family: $font-main;
+  font-size: 11px;
+  text-decoration: underline;
+  position: relative;
+}

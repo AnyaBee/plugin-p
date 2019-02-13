@@ -1,0 +1,79 @@
+.account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account__icon {
+  position: relative;
+  margin-right: 5px;
+}
+
+.account__image {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.account__tag {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 14px;
+  height: 26px;
+}
+
+.account__link {
+  display: block;
+  position: relative;
+}
+
+.account__icon:hover .popup {
+  display: block;
+}
+
+.account__accessible {
+  position: relative;
+  width: 115px;
+}
+
+.account__generated {
+  width: 105px;
+}
+
+.account__border {
+  width: 1px;
+  height: 27px;
+  color: #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.account__allowed {
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7f7f7f;
+  font-weight: 500;
+  letter-spacing: -0.7px;
+}
+
+.account__allowed-amount {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: $font-main;
+  font-weight: 700;
+  color: $blue;
+  display: block;
+}
+
+.account__total {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #585858;
+}
+
+.account__accessible:hover .popup {
+  display: block;
+}

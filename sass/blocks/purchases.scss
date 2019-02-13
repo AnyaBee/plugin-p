@@ -1,0 +1,54 @@
+.purchases {
+  height: 438px;
+}
+
+.purchases__table {
+  width: 260px;
+  background-color: #e0edfa;
+  border-radius: 3px;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+.purchases__table-cell:nth-child(odd) {
+  color: #595959;
+  font-family: $font-main;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -1px;
+}
+
+.purchases__table-cell:nth-child(even) {
+  color: #595959;
+  font-family: $font-main;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -1px;
+}
+
+.purchases__cashback-sum {
+  color: $red;
+  font-family: $font-main;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -1px;
+}
+
+.purchases__first-row td {
+  padding-top:10px;
+}
+
+.purchases__last-row td {
+  padding-bottom: 10px;
+}
+
+.purchases__table td:first-child {
+  padding-left: 10px;
+}
+
+.purchases__table td:last-child {
+  padding-left: 10px;
+}
